@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5584440c-0397-42f6-b6fd-a822d0c03b1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/testProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ru/spb/nkozzlof/testProject/app/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ru/spb/nkozzlof/testProject/app/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ru/spb/nkozzlof/testProject/app/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ru/spb/nkozzlof/testProject/app/init_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ru/spb/nkozzlof/testProject/app/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ru/spb/nkozzlof/testProject/db/createDb.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ru/spb/nkozzlof/testProject/init_db.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ru/spb/nkozzlof/testProject/run.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ru/spb/nkozzlof/testProject/setup.bat" afterDir="false" />
+    <list default="true" id="5584440c-0397-42f6-b6fd-a822d0c03b1e" name="Changes" comment="тестовый проект на питоне и бд Postgres">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/spb/nkozzlof/testProject/app/init_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/ru/spb/nkozzlof/testProject/app/init_db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nkozzlof-stack"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nkozzlof-stack/testProject.git",
+    "accountId": "9777a5df-16b9-4998-b064-a05bacd17bfa"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4,
   "fromUser": false
@@ -54,7 +54,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -72,9 +73,22 @@
       <option name="presentableId" value="Default" />
       <updated>1791542935159</updated>
     </task>
+    <task id="LOCAL-00001" summary="тестовый проект на питоне и бд Postgres">
+      <option name="closed" value="true" />
+      <created>1791544332965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791544332965</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="тестовый проект на питоне и бд Postgres" />
+    <option name="LAST_COMMIT_MESSAGE" value="тестовый проект на питоне и бд Postgres" />
   </component>
 </project>

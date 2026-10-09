@@ -40,6 +40,21 @@ def main():
     finally:
         conn.close()
 
+def resource_path(relative_path: str) -> str:
+    """Путь к ресурсу: работает и из исходников, и из EXE (PyInstaller)."""
+    if getattr(sys, "frozen", False):
+        # Запущено из собранного EXE → ресурсы распакованы в _MEIPASS
+        base_path = sys._MEIPASS
+    else:
+        # Запущено из исходников → app/
+        base_path = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join(base_path, relative_path)
+
+# Путь к SQL-файлу
+SQL_SCHEMA_PATH = resource_path(os.path.join("db", "createDb.sql"))
+
+# Если нужен «рядом с exe», а не внутри — см. раздел 8 ниже
+
 
 if __name__ == "__main__":
     main()
